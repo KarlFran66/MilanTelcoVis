@@ -1,0 +1,121 @@
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,1.0);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.data-selector {
+    z-index: 3000 !important; /* Use a higher z-index and !important to ensure it's on top */
+    position: relative !important; /* Override any other position properties */
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    pointer-events: auto;
+}
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.close:hover {
+    color: #d9534f;
+}
+
+.range-slider-container {
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 20px 0;
+}
+
+.leaflet-control .leaflet-colorbar span {
+    color: white !important;
+  }
+
+.dcc-slider {
+    margin-bottom: 5px;
+}
+
+.dcc-slider .rc-slider-mark-text {
+    font-size: 20px;
+}
+
+.dcc-slider .rc-slider-tooltip-inner {
+    font-size: 20px;
+}
+
+.dcc-slider .rc-slider-tooltip-content {
+    font-size: 20px;
+}
+
+.dcc-slider .rc-slider-handle {
+    font-size: 20px;
+}
+
+.dl-tooltip {
+    font-size: 25px !important; 
+}
+
+/* .custom-popup .leaflet-popup-content-wrapper {
+    font-size: 30px;
+} */
+
+.custom-tooltip {
+    font-size: 20px !important;
+}
+
+html, body, #root, .app-container {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.h-45 {
+    height: 45%;
+}
+
+.h-10 {
+    height: 10%;
+}
+
+.custom-offcanvas-title {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.custom-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    height: 45%;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 1.5em; 
+}
+
+.nav-link, .dropdown-item {
+    font-size: 1.25em; 
+}
+
+.navbar {
+    justify-content: space-between; 
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+
